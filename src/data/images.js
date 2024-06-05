@@ -16,9 +16,13 @@ import image14 from "../assets/images/image.png"
 
 const images = [
 	{
-	  imgURL:image1,
+	  imgURL:image6,
 	  imgAlt: "image1"
 	},
+	{
+		imgURL:image1,
+		imgAlt: "image6"
+	  },
 	{
 	  imgURL:image2,
 	  imgAlt: "image2"
@@ -34,10 +38,6 @@ const images = [
 	{
 	  imgURL:image5,
 	  imgAlt: "image5"
-	},
-	{
-	  imgURL:image6,
-	  imgAlt: "image6"
 	},
 	{
 	  imgURL:image7,

@@ -43,7 +43,7 @@
   }
   @media screen and (max-width:600px) {
     line-height: 50.6px;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   @media screen and (max-width:350px) {
@@ -57,7 +57,7 @@
   font-size: 1.5rem;
   line-height: 33.6px;
   @media screen and (max-width:600px) {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   @media screen and (max-width:350px) {
     font-size: 1rem;
@@ -217,6 +217,12 @@ display: none;
   /* margin-right: 4rem; */
 }
 
+.logo{
+  @media screen and (max-width:350px){
+    width: 100%;
+        }
+}
+
 .questions__green-section-container-logo{
   width: 16rem;
   @media screen and (max-width:1000px){
@@ -283,6 +289,9 @@ display: none;
   font-size: 36px;
   font-weight: 800;
   color:#FFFFFF;
+  @media screen and (max-width:600px){
+  font-size: 30px;
+  }
 }
 
 .welcome__text-container{
@@ -343,7 +352,7 @@ display: none;
     align-items: center;
   }
   @media screen and (max-width:600px){
-    padding: 2rem
+    padding: 1rem
   }
 }
 
@@ -407,6 +416,9 @@ display: none;
   color:#006747;
   font-size: 24px;
   font-weight: 800;
+  @media screen and (max-width:880px){
+  font-size: 20px;
+  }
 }
 
 .calendar__images-colomn1{
@@ -429,20 +441,32 @@ display: none;
 
 .calendar__images-colomn1-1{
   height: 30vw;
+  @media screen and (max-width:600px){
+  height: 40vw;
+  }
 }
 
 .calendar__images-colomn1-2{
   padding-top: 1vh;
   height: 15vw;
+  @media screen and (max-width:600px){
+    height: 20vw
+    }
 }
 
 .calendar__images-colomn2-1{
   height: 22.5vw;
+  @media screen and (max-width:600px){
+    height: 30vw
+    }
 }
 
 .calendar__images-colomn2-2{
   padding-top: 1vh;
   height: 22.5vw;
+  @media screen and (max-width:600px){
+    height: 30vw;
+    }
 }
 
 .calendar__text-content-section-date{

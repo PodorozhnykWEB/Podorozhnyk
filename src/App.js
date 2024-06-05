@@ -12,7 +12,7 @@ import linkedIn from './assets/icons/LinkedIn_icon 1.png'
 import calendar1 from './assets/images/calendar/image copy 2.png'
 import calendar2 from './assets/images/calendar/image copy 3.png'
 import calendar3 from './assets/images/calendar/image copy.png'
-import calendar4 from './assets/images/calendar/image.png'
+import calendar4 from './assets/images/calendar/photo_2024-06-05_19-18-21.jpg'
 import lastImage from './assets/images/image copy 14.png';
 
 import images from "./data/images";
@@ -235,10 +235,15 @@ function App() {
               Програма лояльності
               </div>
               <div className='program__content-text'>
+               {!x880 && (
                 <div className='program__content-text-span'>Завдяки програмі лояльності ви отримуєте такі переваги:</div>
+               )} 
                 <div className='program__content-text-span'>Скористатись бонусами команди Подорожник ви можете не лише при купівлі в аптеці у роздріб, але й через Подорожник Bot і на сайті. </div>
                 <div className='program__content-text-span'>Контролюйте онлайн усі свої накопичення і розпоряджайтесь ними як і коли захочете. 
 Це швидко і доступно.</div>
+{x880 && (
+                <div className='program__content-text-span'>Завдяки програмі лояльності ви отримуєте такі переваги:</div>
+               )} 
               </div>
             </div>
             <div className='program__buttons'>
@@ -366,11 +371,11 @@ function App() {
           <div className='calendar__images'>
             <div className='calendar__images-colomn1'>
               <img src={calendar1} alt='img' className='calendar__images-colomn1-1'/>
-              <img src={calendar2} alt='img' className='calendar__images-colomn1-2'/>
+              <img src={calendar4} alt='img' className='calendar__images-colomn1-2'/>
             </div>
             <div className='calendar__images-colomn2'>
               <img src={calendar3} alt='img' className='calendar__images-colomn2-1'/>
-              <img src={calendar4} alt='img' className='calendar__images-colomn2-2'/>
+              <img src={calendar2} alt='img' className='calendar__images-colomn2-2'/>
             </div>
           </div>
         </div>

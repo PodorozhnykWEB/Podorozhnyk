@@ -6,6 +6,10 @@ import image5 from "../assets/images/presents/image copy 4.png"
 
 const presentImages = [
 	{
+		imgURL:image4,
+		imgAlt: "image4"
+	},
+	{
 	  imgURL:image1,
 	  imgAlt: "image1"
 	},
@@ -16,10 +20,6 @@ const presentImages = [
 	{
 	  imgURL:image3,
 	  imgAlt: "image3"
-	},
-	{
-	  imgURL:image4,
-	  imgAlt: "image4"
 	},
 	{
 	  imgURL:image5,
