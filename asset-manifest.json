@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PodorozhnykWEB/Podorozhnyk/static/css/main.7620d8b9.css",
+    "main.js": "/PodorozhnykWEB/Podorozhnyk/static/js/main.cd3dff78.js",
+    "static/js/453.05192852.chunk.js": "/PodorozhnykWEB/Podorozhnyk/static/js/453.05192852.chunk.js",
+    "index.html": "/PodorozhnykWEB/Podorozhnyk/index.html",
+    "main.7620d8b9.css.map": "/PodorozhnykWEB/Podorozhnyk/static/css/main.7620d8b9.css.map",
+    "main.cd3dff78.js.map": "/PodorozhnykWEB/Podorozhnyk/static/js/main.cd3dff78.js.map",
+    "453.05192852.chunk.js.map": "/PodorozhnykWEB/Podorozhnyk/static/js/453.05192852.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7620d8b9.css",
+    "static/js/main.cd3dff78.js"
+  ]
+}
