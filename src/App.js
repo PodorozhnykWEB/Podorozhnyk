@@ -14,6 +14,8 @@ import calendar2 from './assets/images/calendar/image copy 3.png'
 import calendar3 from './assets/images/calendar/image copy.png'
 import calendar4 from './assets/images/calendar/photo_2024-06-05_19-18-21.jpg'
 import lastImage from './assets/images/image copy 14.png';
+import sportLife from './assets/icons/image.png';
+import rainbow from './assets/icons/image copy.png'
 
 import images from "./data/images";
 import presentImages from './data/presentImages'
@@ -42,7 +44,7 @@ function App() {
         <div className='header__content'>
           <img src={logo} alt='logo' className='logo'/>
           <div className='header__title'>Гід для нових співробітників</div>
-          <div className='header__text'>На цій сторінці ви знайдете відповіді на всі найпоширеніші питання наших нових працівників та корисну інформацію про роботу в Центральному офісі.</div>
+          <div className='header__text'>На цій сторінці Ви знайдете відповіді на всі найпоширеніші питання наших нових працівників та корисну інформацію про роботу в Центральному офісі.</div>
         </div>
         </div>
       </div>
@@ -118,7 +120,7 @@ function App() {
 заробітна плата?
               </div>
               <div className='questions__green-section-container-text-content'>
-              Всі питання, які у вас виникають щодо заробітної плати ви обговорюєте з своїм керівником
+              Всі питання, які у Вас виникають щодо заробітної плати Ви обговорюєте з своїм керівником
               </div>
             </div>
           </div>
@@ -158,7 +160,7 @@ function App() {
             Як оформити відрядження?
               </div>
               <div className='questions__green-section-container-text-content'>
-              Відрядження оформляється працівником за погодженням керівника. Пацівник який їде у відрядження сам бронює готель та замовляє квитки. Більш детальна інформація міститься у пам’ятці по відрядженні.
+              Відрядження оформляється працівником за погодженням керівника. Працівник який їде у відрядження сам бронює готель та замовляє квитки. Більш детальна інформація міститься у пам’ятці по відрядженні.
               </div>
             </div>
             <div className='questions__green-section-container-button'
@@ -178,7 +180,7 @@ function App() {
             для роботи?
               </div>
               <div className='questions__green-section-container-text-content' style={{color:'#1D2939', fontWeight:"500"}}>
-              Якщо вам потрібен монітор, робочий телефон, додаткові меблі потрібно звернутись до свого керівника.
+              Якщо Вам потрібен монітор, робочий телефон, додаткові меблі потрібно звернутись до свого керівника.
               </div>
             </div>
             <div className='pcLogo'>
@@ -207,7 +209,7 @@ function App() {
         Що робити якщо захворів?
               </div>
               <div className='questions__green-section-container-text-content' style={{color:'#1D2939', fontWeight:"500"}}>
-              Для початку попередьте свого керівника. Якщо потрібно відкрити лікарняний зверніться до лікаря. Електронний лікарняний лікар надішле у відділ кадрів.
+              Для початку попередьте свого керівника. Якщо потрібно відкрити документ зверніться до лікаря. Електронний лікарняний лікар надішле у відділ кадрів.
               </div>
             </div>
             <div className='questions__green-section-container-text'>
@@ -215,7 +217,7 @@ function App() {
         Як відправити документи?
               </div>
               <div className='questions__green-section-container-text-content' style={{color:'#1D2939', fontWeight:"500"}}>
-              Всі працівники центрального офісу мають можливість отримувати та відправляти документи чи інші посилки в робочих цілях з офісу для оптимізації часу та роботи. Як це зробити перейдіть за посиланням.
+              Всі працівники центрального офісу мають можливість отримувати та відправляти документи чи інші посилки в робочих цілях з офісу для оптимізації часу та роботи. Як це зробити - перейдіть за посиланням.
               </div>
             </div>
             <div className='questions__white-section-button'
@@ -236,13 +238,13 @@ function App() {
               </div>
               <div className='program__content-text'>
                {!x880 && (
-                <div className='program__content-text-span'>Завдяки програмі лояльності ви отримуєте такі переваги:</div>
+                <div className='program__content-text-span'>Завдяки програмі лояльності Ви отримуєте такі переваги:</div>
                )} 
-                <div className='program__content-text-span'>Скористатись бонусами команди Подорожник ви можете не лише при купівлі в аптеці у роздріб, але й через Подорожник Bot і на сайті. </div>
+                <div className='program__content-text-span'>Скористатись бонусами команди Подорожник Ви можете не лише при купівлі в аптеці у роздріб, але й через Подорожник Bot і на сайті. </div>
                 <div className='program__content-text-span'>Контролюйте онлайн усі свої накопичення і розпоряджайтесь ними як і коли захочете. 
 Це швидко і доступно.</div>
 {x880 && (
-                <div className='program__content-text-span'>Завдяки програмі лояльності ви отримуєте такі переваги:</div>
+                <div className='program__content-text-span'>Завдяки програмі лояльності Ви отримуєте такі переваги:</div>
                )} 
               </div>
             </div>
@@ -264,6 +266,16 @@ function App() {
 на місяць </span>
               </div>
             </div>
+        </div>
+
+        <div className='discount'>
+          <div className='discount__text'>Ми турбуємося про кожного нашого працівника та його родину, тому організували для вас:</div>
+          <div className='discount__info'>- ЗНИЖКУ -40% НА ВІДВІДУВАННЯ МЕРЕЖІ СПОРТЗАЛІВ "SportLife"
+            {/* <img className='discount__image' src={sportLife} alt='sportlife'/> */}
+          <br/>- ЗНИЖКУ -20% НА ОБСЛУГОВУВАННЯ В МЕРЕЖІ КЛІНІК "Веселка"
+          {/* <img className='discount__image2' src={rainbow} alt='sportlife'/> */}
+          </div>
+          <div className='discount__text' style={{marginTop:'1rem'}}>Використовуйте оплату частинами або сплачуйте повну вартість одразу за обрані абонементи</div>
         </div>
 
         <div className='social'>
@@ -412,7 +424,7 @@ function App() {
             <div className='white-section-text-title'>Мафія</div>
             <div className='white-section-text-content'>
             «Мафія» - це цікава, захоплююча та інтелектуальна командна рольова гра з детективним сюжетом, яка заснована на живому спілкуванні. Проводимо кілька разів в місяць в офісі після робочого дня. <br/><br/>
-Ми гарантуємо, що на грі ви будете:<br/>- Сміятися.<br/>- Знайомитись.<br/>- Навчатися новому.<br/>- Ділитися досвідом.<br/><br/>
+Ми гарантуємо, що на грі Ви будете:<br/>- Сміятися.<br/>- Знайомитись.<br/>- Навчатися новому.<br/>- Ділитися досвідом.<br/><br/>
 Це гарна можливість ближче познайомитись з колегами інших підрозділів.
             </div>
 
@@ -426,7 +438,7 @@ function App() {
               Футбол
               </div>
               <div className='presents__text-content'>
-              Для нас футбол - це активний відпочинок і крута командна атмосфера. Гравці та вболівальники Подорожника беруть участь у футбольних турнірах. Якщо ви любите активний відпочинок у крутій компанії, приєднуйтесь до футбольної команди "Подорожник". Відмінний настрій вам забезпечений.
+              Для нас футбол - це активний відпочинок і крута командна атмосфера. Гравці та вболівальники Подорожника беруть участь у футбольних турнірах. Якщо Ви любите активний відпочинок у крутій компанії, приєднуйтесь до футбольної команди "Подорожник". Відмінний настрій Вам забезпечений.
               </div>
           </div>
           <div className='presents__slider'>
