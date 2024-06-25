@@ -684,7 +684,7 @@ display: none;
   background-image: url('./assets/images/image\ copy\ 15.png');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top left;
   height: 70vh;
   margin-top: 2rem;
   border-radius: 3rem;
